@@ -12,7 +12,7 @@ import com.example.tripmanagementservice.model.Trips;
 
 @Repository
 @Transactional
-public interface TripsRepo extends JpaRepository<trip_id,Integer>{
+public interface TripsRepo extends JpaRepository<Trips,Integer>{
 	
 	
 
