@@ -12,7 +12,7 @@ import com.example.customermanagementservice.model.Customers;
 
 @Repository
 @Transactional
-public interface CustomersRepo extends JpaRepository<cid,Integer>{
+public interface CustomersRepo extends JpaRepository<customers,String>{
 	
 	
 
